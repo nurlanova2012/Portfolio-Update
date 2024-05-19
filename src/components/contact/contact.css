@@ -1,0 +1,23 @@
+.contacts__container{
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+}
+.contacts__options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.contacts__list{
+    background-color: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transitions);
+}
+.contacts__list:hover{
+    background-color: transparent;
+    border-color: var(--color-primary-variant);
+}
